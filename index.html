@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sary Sultan - Portfolio</title>
+</head>
+
+<body>
+    <div class="header-container">
+        <div class="logo">
+            <img src="assets/logo.png" alt="logo" />
+            <h1 class="header-title">Sary</h1>
+        </div>
+        <nav class="nav">
+            <ul class="nav-links">
+                <li>
+                    <a href="#home">Home</a>
+                </li>
+                <li>
+                    <a href="#about">About</a>
+                </li>
+                <li>
+                    <a href="#skills">Skills</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="social">
+            <img src="assets/facebook.png" alt="facebook" />
+            <img src="assets/instagram.png" alt="instagram" />
+            <img src="assets/youtube.png" alt="youtube" />
+            <img src="assets/linkedin-logo.png" alt="linkedin" />
+        </div>
+    </div>
+    <div class="hero">
+        <div class="hero-texts">
+            <h2 class="hero-title">
+                Sary Wasim Sultan
+            </h2>
+
+            <p class="hero-paragraph">
+                Sary Sultan, a Computer Systems Engineering student at Palestine Polytechnic University,<br> aspiring to
+                become a Full Stack Developer. I believe that self-study is not enough. <br>It needs a reliable source
+                of information to fill the gaps I have.<br> I am confident that you are the right destination.
+            </p>
+            <button class="cta-button">
+                More Details
+            </button>
+        </div>
+        <img src="assets/myPic.jpg" alt="Sary's Picture" />
+    </div>
+    <h3 id="skills">
+        Programming Languages and Frameworks I Know
+    </h3>
+    <div class="skills">
+        <div class="card">
+            <img src="assets/c++.png" alt="C++" />
+            <p class="card-title">C++</p>
+            <p class="card-description">Familiar with C++ basics, learned during my university courses.</p>
+        </div>
+        <div class="card">
+            <img src="assets/java.png" alt="Java" />
+            <p class="card-title">Java</p>
+            <p class="card-description">Familiar with Java basics, learned during my university courses.</p>
+        </div>
+        <div class="card">
+            <img src="assets/html-5.png" alt="HTML" />
+            <p class="card-title">HTML</p>
+            <p class="card-description">Self-taught HTML with exercises and projects.</p>
+        </div>
+        <div class="card">
+            <img src="assets/css-3.png" alt="CSS" />
+            <p class="card-title">CSS</p>
+            <p class="card-description">Self-taught CSS with exercises and projects.</p>
+        </div>
+        <div class="card">
+            <img src="assets/java-script.png" alt="JavaScript" />
+            <p class="card-title">JavaScript</p>
+            <p class="card-description">Self-taught JavaScript with exercises and projects.</p>
+        </div>
+        <div class="card">
+            <img src="assets/typescript.png" alt="TypeScript" />
+            <p class="card-title">TypeScript</p>
+            <p class="card-description">Currently learning TypeScript.</p>
+        </div>
+        <div class="card">
+            <img src="assets/react.png" alt="ReactJS" />
+            <p class="card-title">ReactJS</p>
+            <p class="card-description">Currently learning ReactJS.</p>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-logo">
+                <img src="assets/logo.png" alt="Logo" />
+            </div>
+            <div class="footer-nav">
+                <p class="footer-title">Navigation</p>
+                <ul class="footer-nav-links">
+                    <li>
+                        <a href="#home">Home</a>
+                    </li>
+                    <li>
+                        <a href="#about">About</a>
+                    </li>
+                    <li>
+                        <a href="#skills">Skills</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer-contact">
+                <p class="footer-title">Contact Information</p>
+                <p class="footer-contact-info">
+                    <strong>Phone:</strong> +972 592 802 900
+                </p>
+                <p class="footer-contact-info">
+                    <strong>Email:</strong> sary.sultan2004@gmail.com
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.querySelector('.cta-button').addEventListener('click', function () {
+            document.querySelector('#skills').scrollIntoView({ behavior: 'smooth' });
+        });
+    </script>
+</body>
+
+</html>
